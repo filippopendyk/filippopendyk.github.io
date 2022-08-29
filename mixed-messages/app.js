@@ -17,3 +17,6 @@ const getRandomJoke = () => {
 
 document.getElementById('random-joke').innerHTML = getRandomJoke();
 
+document.getElementById('generate').addEventListener('click', function() {
+    document.getElementById('random-joke').innerHTML = getRandomJoke();
+});
