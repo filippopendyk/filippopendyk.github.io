@@ -1,0 +1,23 @@
+/* setting min height of html to 100%, to prevent gradient from repeating as background */
+html{
+    min-height: 100%;
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    background: linear-gradient(35deg, #3CF6BF,#CCF4E8);
+}
+
+main{
+    background-color: white;
+}
+
+h1{
+    font-size: 3rem;
+    font-weight: 400;
+}
+
+#message{
+    font-size: 3rem;
+    font-weight:700;
+}
