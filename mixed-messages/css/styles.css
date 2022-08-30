@@ -17,7 +17,7 @@ main{
     margin-top: 2rem;
     background-color: white;
     border: 5px solid black;
-    filter: drop-shadow(-10px);
+    filter: drop-shadow(10px 10px);
 }
 
 h1{
@@ -38,4 +38,22 @@ h1{
     padding: 1rem;
     margin-top: 0;
     color: gray;
+}
+
+#generate{
+    padding: 1rem;
+    margin-left: 1rem;
+    background-color: #3CF6BF;
+    border: 5px solid black;
+    display: inline-block;
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 2rem;
+    filter: drop-shadow(10px 10px);
+}
+
+footer{
+    font-size: 1.3rem;
+    color:darkcyan;
+    margin-top: 2rem;
 }
