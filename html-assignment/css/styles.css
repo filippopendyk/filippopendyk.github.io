@@ -1,0 +1,50 @@
+/* HTML TAGS */
+
+body{
+    font-size: 18px;
+}
+
+header, footer{
+    background-color: red;
+}
+
+ul.hobbies{
+    list-style-type:square;
+}
+
+li:nth-child(odd){
+    background-color: orange;
+}
+
+a:link{
+    text-decoration: none;
+    background-color: white;
+    border: 2px solid black;
+}
+
+a:hover{
+    background-color: yellow;
+}
+
+/* CLASSES */
+
+.site-title{
+    color:white;
+}
+
+/* nav */
+
+.navbar-item{
+    font-size: 30px;
+    line-height: 2;
+    padding:1rem;
+}
+
+
+/* my photo*/
+
+.my-image{
+    height:300px;
+    width:300px;
+    box-shadow: 0 0 2px 1px black;
+}

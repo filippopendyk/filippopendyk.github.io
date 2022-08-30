@@ -1,0 +1,169 @@
+body{
+    background-color: #aad4cf;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    position: relative;
+    margin-bottom: 0;
+}
+
+.wrapper{
+    margin:auto;
+    width: 750px;
+    background-color:#b7e2dd;
+    margin-bottom: 20px;
+}
+
+.clearfix::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+/* STYLING THE HEADING */
+
+.header-image{
+    width:750px;
+    height: 300px;
+}
+
+#title-heading{
+    color:white;
+    position:absolute;
+    margin: auto;
+    top:175px;
+    left:240px;
+    font-size: 50px;
+}
+
+/* STYLING THE NAVBAR */
+
+nav{
+    text-align: center;
+    position: relative;
+}
+
+nav ul li{
+    display: inline-block;
+    height: 30px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color:black;
+    font-size: 20px;
+    text-transform: uppercase;
+    margin-top:0;
+    padding-right: 60px;
+    padding-left: 60px;
+}
+
+.vl {
+    border-left: 1px solid black;
+    height: 40px;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+/* Story Section */
+
+#story{
+    margin-top:30px;
+    font-size: 30px;
+    padding: 10px;
+}
+
+/* STARFISH IMG */
+
+.story-heading{
+    margin-bottom: 10px;
+}
+
+.starfish-img{
+    height: 325px;
+    width: 325px;
+    position: relative;
+    float:left;
+    padding-right: 20px;
+    padding-bottom: 20px;
+}
+
+.story-text{
+    font-size:14px;
+    word-spacing: 1.7;
+    line-height: 1.7;
+}
+
+/* FACTS */
+
+.facts{
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.section-heading{
+    font-size:25px;
+}
+
+.facts ul{
+    list-style-type: disc;
+    font-size: 13px;
+    margin-top: 15px;
+}
+
+.facts ul li{
+    margin-left: 15px;
+}
+
+/* FEEDBACK */
+
+#contact{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#feedback{
+    border: 1px solid black;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+.feedback-label{
+    font-size: 13px;
+}
+
+#yname, #email {
+    width: 97.5%;
+}
+
+.form-heading{
+    margin:10px 0;
+    font-size:19px;
+}
+
+.choice{
+    margin-bottom: 7px;
+}
+
+.radio-label{
+    font-size:13px;
+}
+
+.submit-btn{
+    background-color:#b7e2dd;
+    padding: 10px;
+    font-size: 10px;
+    border: 1px solid black;
+}
+
+.message-textarea{
+    resize:none;
+}
+
+/* copyright */
+
+.copyright{
+    padding:30px;
+    text-align: right;
+    font-size: x-small;
+}
