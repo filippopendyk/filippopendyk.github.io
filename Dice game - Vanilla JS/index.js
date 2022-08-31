@@ -1,4 +1,4 @@
-function randomDice1(){
+function randomDice(){
     var randomNumber1;
     var randomNumber2;
     randomNumber1 = (Math.round(Math.random()*5)+1);
