@@ -1,6 +1,6 @@
-function randomDice(){
-    var randomNumber1;
-    var randomNumber2;
+function randomDice1(){
+    let randomNumber1;
+    let randomNumber2;
     randomNumber1 = (Math.round(Math.random()*5)+1);
     randomNumber2 = (Math.round(Math.random()*5)+1);
     document.querySelector(".img1").setAttribute("src", `images/dice${randomNumber1}.png`);
