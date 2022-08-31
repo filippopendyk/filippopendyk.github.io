@@ -12,7 +12,7 @@ app.get("/", function(req,res){
 
 app.post("/", function(req,res){
     const query = req.body.cityName;
-    const apiKey = "8d4a788127fec93f2cc5cd64dc29deb0";
+    const apiKey =
     const units = "metric";
 
     const url = "https://api.openweathermap.org/data/2.5/weather?q=" + query + "&units=" + units + "&appid=" + apiKey;
@@ -33,30 +33,6 @@ app.post("/", function(req,res){
         })
     })
 })
-
-
-
-// const query = "London";
-//     const apiKey = "8d4a788127fec93f2cc5cd64dc29deb0";
-//     const units = "metric";
-
-//     const url = "https://api.openweathermap.org/data/2.5/weather?q=" + query + "&units=" + units + "&appid=" + apiKey;
-    
-//     https.get(url, function(response){
-//         console.log(response.statusCode);
-
-//         response.on("data", function(data){
-//             const weatherData = JSON.parse(data);
-//             const temp = weatherData.main.temp;
-//             const weatherDesc = weatherData.weather[0].description;
-//             const icon = weatherData.weather[0].icon;
-//             const imgUrl = "http://openweathermap.org/img/wn/" + icon + "@2x.png";
-        
-//             res.write("<p>The weather is currently " + weatherDesc + "</p>");
-//             res.write("<h1>The temperature in London is " + temp + " degrees Celcius.</h1>");
-//             res.write("<img src=" + imgUrl + ">");
-//         })
-//     })
 
 app.listen(3000, function(){
     console.log("server is running on port 3000.");
