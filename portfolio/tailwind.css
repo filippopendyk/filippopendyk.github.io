@@ -585,9 +585,86 @@ video {
   }
 }
 
+.mx-auto {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.flex {
+  display: flex;
+}
+
+.hidden {
+  display: none;
+}
+
+.w-full {
+  width: 100%;
+}
+
+.items-center {
+  align-items: center;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+.space-x-12 > :not([hidden]) ~ :not([hidden]) {
+  --tw-space-x-reverse: 0;
+  margin-right: calc(3rem * var(--tw-space-x-reverse));
+  margin-left: calc(3rem * calc(1 - var(--tw-space-x-reverse)));
+}
+
 .bg-body {
   --tw-bg-opacity: 1;
   background-color: rgb(3 8 22 / var(--tw-bg-opacity));
+}
+
+.bg-theme {
+  --tw-bg-opacity: 1;
+  background-color: rgb(233 69 96 / var(--tw-bg-opacity));
+}
+
+.p-12 {
+  padding: 3rem;
+}
+
+.py-6 {
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+}
+
+.px-8 {
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+.px-6 {
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+
+.py-2 {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
+.font-roboto {
+  font-family: Roboto, sans-serif;
+}
+
+.font-roboto-mono {
+  font-family: "Roboto Mono", monospace;
+}
+
+.text-lg {
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+}
+
+.font-bold {
+  font-weight: 700;
 }
 
 .text-white {
@@ -598,4 +675,27 @@ video {
 .text-selected-text {
   --tw-text-opacity: 1;
   color: rgb(83 52 131 / var(--tw-text-opacity));
+}
+
+.text-theme {
+  --tw-text-opacity: 1;
+  color: rgb(233 69 96 / var(--tw-text-opacity));
+}
+
+@media (min-width: 768px) {
+  .md\:flex {
+    display: flex;
+  }
+
+  .md\:px-14 {
+    padding-left: 3.5rem;
+    padding-right: 3.5rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .lg\:px-24 {
+    padding-left: 6rem;
+    padding-right: 6rem;
+  }
 }
