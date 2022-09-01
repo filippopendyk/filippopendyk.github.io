@@ -2,8 +2,8 @@
 module.exports = {
   content: ["./index.html"],
   theme: {
-    extend: {},
-    colors: {
+    extend: {
+      colors: {
       'body': '#030816',
       'selected-text': '#533483',
       'theme': '#E94560',
@@ -17,6 +17,7 @@ module.exports = {
       'roboto': ['Roboto', 'sans-serif'],
       'roboto-mono': ['"Roboto Mono"', 'monospace']
     }
+  },   
   },
   plugins: [],
 }
