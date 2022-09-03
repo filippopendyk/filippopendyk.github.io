@@ -16,6 +16,9 @@ module.exports = {
     fontFamily: {
       'roboto': ['Roboto', 'sans-serif'],
       'roboto-mono': ['"Roboto Mono"', 'monospace']
+    },
+    fontSize: {
+      'para-desc': '1.625rem',
     }
   },   
   },

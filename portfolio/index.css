@@ -71,3 +71,7 @@ scroll-margin-top: 100px;
 .project-card{
     @apply my-6 w-full max-w-3xl;
 }
+
+.project-desc{
+    @apply text-para-desc;
+}
