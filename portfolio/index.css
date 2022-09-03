@@ -16,8 +16,6 @@ html, body {
     top: 50%;
 }
 
-
-
 .-z-1 {
     z-index: -1;
 }
@@ -64,4 +62,12 @@ scroll-margin-top: 100px;
 }
 
 .me{
+}
+
+.project-title{
+    @apply text-theme font-bold;
+}
+
+.project-card{
+    @apply my-6 w-full max-w-3xl;
 }
