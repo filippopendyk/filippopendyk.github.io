@@ -61,8 +61,6 @@ scroll-margin-top: 100px;
     opacity: 1;
 }
 
-.me{
-}
 
 .project-title{
     @apply text-theme font-bold;
@@ -74,4 +72,8 @@ scroll-margin-top: 100px;
 
 .project-desc{
     @apply text-para-desc;
+}
+
+.project-link{
+    @apply text-secondary;
 }
