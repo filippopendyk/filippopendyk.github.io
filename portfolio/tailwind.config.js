@@ -10,8 +10,8 @@ module.exports = {
       'nav': '#868686',
       'secondary': '#868686',
       'badge': '#3F3F51',
-      'input-border': '#061130',
-      'input': '#061130'
+      'input-border': '#061131',
+      'input': '#061130',
     },
     fontFamily: {
       'roboto': ['Roboto', 'sans-serif'],
